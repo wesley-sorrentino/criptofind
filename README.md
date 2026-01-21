@@ -23,8 +23,7 @@ Uma landing page moderna e responsiva para projetos de criptomoedas, inspirada n
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5** → Estrutura semântica.  
 - **CSS3** → Gradientes neon, animações e responsividade.  
-- **JavaScript (ES6)** → Simulador e interatividade.  
-- *(Opcional)* **Three.js / GSAP** → Para animações 3D e scroll narrativo avançado.  
+- **JavaScript (ES6)** → Simulador e interatividade.
 
 ---
 
