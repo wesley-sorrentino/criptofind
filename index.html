@@ -7,25 +7,36 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- NavegaÃ§Ã£o -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#features">Recursos</a></li>
+      <li><a href="#team">Equipe</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="hero-content">
       <h1>Conecte-se ao Futuro da Cripto</h1>
-      <p>Transparência, tecnologia e confiança em cada transação.</p>
-      <button class="cta">Comece Agora</button>
+      <p>TransparÃªncia, tecnologia e confianÃ§a em cada transaÃ§Ã£o.</p>
+      <a href="#about" class="read-more">Read More</a>
     </div>
     <div class="hero-visual">
-      <canvas id="crypto3D"></canvas>
+      <img src="bitcoin.svg" alt="Bitcoin" class="pulse">
     </div>
   </section>
 
-  <!-- Prova Social e Segurança -->
-  <section class="trust">
-    <h2>Segurança e Transparência</h2>
+  <!-- Prova Social e SeguranÃ§a -->
+  <section class="trust" id="features">
+    <h2>SeguranÃ§a e TransparÃªncia</h2>
     <div class="badges">
       <img src="audit-seal.png" alt="Auditoria Certificada">
-      <img src="security-seal.png" alt="Segurança Blockchain">
-      <p>+1M transações verificadas em tempo real</p>
+      <img src="security-seal.png" alt="SeguranÃ§a Blockchain">
+      <p>+1M transaÃ§Ãµes verificadas em tempo real</p>
     </div>
   </section>
 
@@ -41,10 +52,10 @@
   </section>
 
   <!-- Scroll Narrativo -->
-  <section class="story">
+  <section class="story" id="about">
     <div class="step" data-scroll="1">
       <h2>Do Zero ao Futuro</h2>
-      <p>Entenda como sua jornada cripto começa.</p>
+      <p>Entenda como sua jornada cripto comeÃ§a.</p>
     </div>
     <div class="step" data-scroll="2">
       <h2>Interatividade 3D</h2>
