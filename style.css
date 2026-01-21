@@ -1,31 +1,65 @@
 body {
-  background: #0d0d0d;
+  background: linear-gradient(135deg, #0d0d0d, #001f2f);
   color: #f5f5f5;
   font-family: 'Merriweather', serif;
   margin: 0;
   padding: 0;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+.navbar a {
+  color: #00f0ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
+  padding: 6rem 4rem;
+  margin-top: 60px;
 }
 
-.cta {
-  background: linear-gradient(90deg, #00f0ff, #ff00c8);
-  border: none;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
+.hero-content {
+  max-width: 50%;
 }
 
-.cta:hover {
-  transform: scale(1.05);
+.read-more {
+  background: linear-gradient(90deg, #ff00c8, #00f0ff);
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: box-shadow 0.3s ease;
+}
+.read-more:hover {
+  box-shadow: 0 0 20px #00f0ff;
+}
+
+.pulse {
+  width: 200px;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
 }
 
 .trust, .simulator, .story {
